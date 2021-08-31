@@ -468,7 +468,7 @@ color: #292929;
   }
    /* footer */
   footer{
-    background:url(/zhybuliou-JS2020Q3/shelter/assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
+    background:url(/shelter/assets/images/noise_transparent@2x.png), radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
     max-width: 1920px;
     min-height: 355px;
 }
