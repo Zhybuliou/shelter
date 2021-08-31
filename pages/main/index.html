@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <title>SHETLER</title>
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="logo">
+                <h1>Cozy House</h1>
+                <div class="logo__title">
+                    Cozy House
+                </div>
+                <div class="logo__subtitle">
+                    Shelter for pets in Boston
+                </div>
+            </div>
+            <div class="hamburger-menu">
+                <input id="menu__toggle" type="checkbox" />
+                <label class="menu__btn" for="menu__toggle">
+                  <span></span>
+                </label>
+
+       
+            <nav class="menu" id="menu">
+
+                <ul class="menu__list">
+                    <li class="list__item">
+                       <a href="/zhybuliou-JS2020Q3/shelter/pages/main/" class = "item__link item_link_active">
+                            About the shelter
+                        </a>
+                    </li>
+                    <li class="list__item">
+                        <a href="/zhybuliou-JS2020Q3/shelter/pages/pets/" class = "item__link item__link">
+                            Our pets
+                        </a>
+                    </li>
+                    <li class="list__item__disabled">
+                        <a href="#" class = "item__link item__link__disabled">
+                            Help the shelter
+                        </a>
+                    </li>
+                    <li class="list__item__disabled">
+                        <a href="#" class = "item__link item__link__disabled">
+                            Contacts
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+
+        </div>
+    </header>
+    <main class="main">
+        <div class="hero">
+            <div class="wrapper">
+                <div class="hero__content">
+                    <div class ="content-section">
+                        <h2 class ="content-section__title">
+                            Not only people need a house
+                        </h2>
+                        <p class = "content-section__subtitle">
+                            We offer to give a chance to a little and nice puppy with an extremely
+                            wide and open heart. He or she will love you more than anybody else.
+                            in the world, you will see!
+                        </p>
+                        <a href="/zhybuliou-JS2020Q3/shelter/pages/pets/">
+                        <button type="button" class = "content-section__button">
+                            Make a friend
+                        </button>
+                        </a>
+                    </div>
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/images/start-screen-puppy.png" alt="puppy" class="hero__image">
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Section About -->
+    <section class="about">
+        <div class="about-content">
+            <div class="about-image">
+                <img src="/zhybuliou-JS2020Q3/shelter/assets/images/about-pets.png" alt="dog">
+            </div>
+            <div class="about-text">
+                <h3>
+                    About the shelter <br>“Cozy House”
+                </h3>
+                <p>
+                    Currently we have 121 dogs and 342 cats on our hands and statistics show that only 20% of them will find a family. The others will continue to live with us and will be waiting for a lucky chance to become dearly loved.
+                </p>
+                <p>
+                    We feed our wards with the best food and make sure that they do not get sick, feel comfortable (including psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill levels. About 12% of the animals are taken by the shelter staff. Taking care of the animals, they become attached to the pets and would hardly ever leave them alone.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- Section  Our Friends -->
+    <section class = "our-friends">
+        <div class="pets-content">
+            <div class="our-friends-title">
+                <h3>
+                    Our friends who<br>
+                        are looking for a house
+                </h3>
+            </div>
+
+            <div class="my-slider">
+                <div class="item">
+                    <div id="card" class="our-card right-card js-open-modal"  data-modal="2">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-katrine (1).png" alt="cat">
+                        <p>Katrine</p>
+                        <button >Learn more</button>
+                    </div>
+                    
+                </div>
+                <div class="item">
+                    <div class="our-card center-card js-open-modal" data-modal="1">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-jennifer.png" alt="dog" >
+                        <p>Jennifer</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div data-modal="3" class="our-card center-left js-open-modal" >
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-woody.png" alt="woody">
+                        <p>Woody</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div data-modal="4" class="our-card right-card js-open-modal">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-katrine.png" alt="sophi">
+                        <p>Sophia</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div data-modal="5" class="our-card center-card js-open-modal">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-timmy.png" alt="timmy">
+                        <p>Timmy</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div data-modal="6" class="our-card center-left js-open-modal" >
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-charly-1.png" alt="scarlet">
+                        <p>Charly</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div data-modal="7" class="our-card right-card js-open-modal">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-scarlet.png" alt="scarlet">
+                        <p>Scarlett</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div data-modal="8" class="our-card center-card js-open-modal">
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/1-pets.png" alt="pets">
+                        <p>Freddie</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <div data-modal="3" class="our-card center-left js-open-modal" >
+                        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-woody.png" alt="woody">
+                        <p>Woody</p>
+                        <button>Learn more</button>
+                    </div>
+                </div>
+                
+              </div>
+              <script>
+                
+                var slider = tns({
+                  container: '.my-slider',
+                  nav: false,
+                  responsive: {
+                                640: {
+                                    // edgePadding: 20,
+                                    // gutter: 20,
+                                    items: 1,
+                                    slideBy:1,
+                                },
+                                760: {
+                                    // gutter: 30
+                                    items: 2,
+                                    slideBy:2,
+                                },
+                                800: {
+                                    // gutter: 30
+                                    items: 3,
+                                    slideBy:3,
+                                }},
+                             
+                //   arrowKeys: true,
+                //   autoWidth: false,
+                  controlsText: ['&#8592','&#8594;'],
+                  swipeAngle: false,
+                //   prevButton: true,
+                //   nextButton: true,
+                //   controlsContainer: true,
+                //   fixedWidth: 200,
+                //   gutter: 10, 
+                //   edgePadding: 100,
+                //   prevButton: prevButton, // previous button
+                //        nextButton: nextButton, // next button
+                });
+               
+              </script>
+
+
+            <div class="our-button-bottom">
+                <a href="/zhybuliou-JS2020Q3/shelter/pages/pets/"><button>Get to know the rest</button></a>
+            </div>
+        </div>
+    </section>
+     <!-- Section  Help -->
+     <section class="section-help">
+        <div class="wrapper-help">
+            <div class="title-help">
+                <h3>How you can help
+                    our shelter</h3>
+            </div>
+            <div class="list-help">
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-pet-food.svg" alt="pet-food">
+                    <h4>Pet food</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-transportation.svg" alt="Transportation">
+                    <h4>Transportation</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-toys.svg" alt="toys">
+                    <h4>Toys</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-bowls-and-cups.svg" alt="bowls-cup">
+                    <h4>Bowls and cups</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-shampoos.svg" alt="shampoos">
+                    <h4>Shampoos</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-vitamins.svg" alt="vitamins">
+                    <h4>Vitamins</h4>
+                </div>
+                <div class="icon-block">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-medicines.svg" alt="medicines">
+                    <h4>Medicines</h4>
+                </div>
+                <div class="icon-block" >
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-collars-leashes.svg" alt="leashes">
+                    <h4>Collars / leashes</h4>
+                </div>
+                <div class="icon-block sleeping">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-sleeping-area.svg" alt="icon-sleeping-area">
+                    <h4>Sleeping areas</h4>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- Section  In addition -->
+     <section class="in-addition">
+         <div class="addition-wrap">
+             <div class="donate-dog">
+                <img src="/zhybuliou-JS2020Q3/shelter/assets/images/donation-dog.png" alt="donate-dog">
+             </div>
+             <div class="donate-information">
+                <h3>You can also<br> make a donation</h3>
+                <h5>Name of the bank / Type of bank account</h5>
+                 <div class="donate-card">
+                    <a href="#">
+                     <img src="/zhybuliou-JS2020Q3/shelter/assets/icons/credit-card.svg" alt="credit-card">
+                     8380 2880 8028 8791 7435
+                    </a>
+                </div>
+                <p>Legal information and lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a ipsum at libero sagittis dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+             </div>
+         </div>
+     </section>
+
+     <footer>
+        <div class="footer-content">
+             <div class="footer-contacts">
+                <h3>
+                    For questions and suggestions
+                </h3>
+                <div class="footer-email">
+                    <a href="mailto:someone@yoursite.com"><img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-email.svg" alt="email">email@shelter.com</a>
+                </div>
+                <div class="footer-tel">
+                    <a href="tel:+74951111111"><img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-phone.svg" alt="tel">+13 674 567 75 54</a>
+                </div>
+             </div>
+             
+             <div class="footer-map">
+                <h3>
+                    We are waiting for your visit
+                </h3>
+                <div class="footer---map">
+                    <a href="https://goo.gl/maps/MDHgmAp6cBQgj7xk8" target="_blank"><img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-marker.svg" alt="map-top">1 Central Street, Boston (entrance from the store)</a>
+                </div>
+                <div class="footer--map">
+                    <a href="https://goo.gl/maps/HbYSQ6wdpfNgdyAi7" target="_blank"><img src="/zhybuliou-JS2020Q3/shelter/assets/icons/icon-marker.svg" alt="map">18 South Park, London</a>
+                </div>
+             </div>
+
+             <div class="footer-image">
+                    <img src="/zhybuliou-JS2020Q3/shelter/assets/images/footer-puppy.png" alt="footer-puppy">
+             </div>
+         </div>
+     </footer>
+
+
+
+<!-- Несколько модальных окон -->
+<!-- number1 -->
+<div class="modal" data-modal="1">
+   <!--   Svg иконка для закрытия окна  -->
+   <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+    </svg>
+
+   <div class="modal-img">
+        <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-jennifer.png" alt="jennifer">
+   </div>
+   <div class="modal-text">
+        <h3>Jennifer</h3>
+        <h4>Dog - Labrador</h4>
+        <h5>Jennifer is a sweet 2 months old Labrador that is patiently waiting to find a new forever home. This girl really enjoys being able to go outside to run and play, but won't hesitate to play up a storm in the house if she has all of her favorite toys.</h5>
+        <div class="modal-list">
+            <ul>
+                <li><b>Age:</b> 2 months</li>
+                <li><b>Inoculations:</b> none</li>
+                <li><b>Diseases:</b> none</li>
+                <li><b>Parasites:</b> none</li>
+            </ul>
+        </div>
+   </div>
+
+</div>
+<div class="modal" data-modal="2">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-katrine (1).png" alt="katrine">
+    </div>
+    <div class="modal-text">
+         <h3>Katrine</h3>
+         <h4>Cat - British Shorthair</h4>
+         <h5>Katrine is a beautiful girl. She is as soft as the finest velvet with a thick lush fur. Will love you until the last breath she takes as long as you are the one. She is picky about her affection. She loves cuddles and to stretch into your hands for a deeper relaxations.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 6 months</li>
+                 <li><b>Inoculations:</b> panleukopenia</li>
+                 <li><b>Diseases:</b> none</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="3">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-woody.png" alt="woody">
+    </div>
+    <div class="modal-text">
+         <h3>Woody</h3>
+         <h4>Dog - Golden Retriever</h4>
+         <h5>Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be happier when he finds a new family that can spend a lot of time with him.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 3 years 6 months</li>
+                 <li><b>Inoculations:</b> adenovirus distemper</li>
+                 <li><b>Diseases:</b> right back leg mobility reduced</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="4">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-katrine.png" alt="woody">
+    </div>
+    <div class="modal-text">
+         <h3>Sophia</h3>
+         <h4>Dog - Shih tzu</h4>
+         <h5>Sophia here and I'm looking for my forever home to live out the best years of my life. I am full of energy. Everyday I'm learning new things, like how to walk on a leash, go potty outside, bark and play with toys and I still need some practice.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 1 month</li>
+                 <li><b>Inoculations:</b> parvovirus</li>
+                 <li><b>Diseases:</b> none</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="5">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-timmy.png" alt="timmy">
+    </div>
+    <div class="modal-text">
+         <h3>Timmy</h3>
+         <h4>Cat - British Shorthair</h4>
+         <h5>Timmy is an adorable grey british shorthair male. He loves to play and snuggle. He is neutered and up to date on age appropriate vaccinations. He can be chatty and enjoys being held. Timmy has a lot to say and wants a person to share his thoughts with.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 2 years 3 months</li>
+                 <li><b>Inoculations:</b> calicivirus viral rhinotracheitis</li>
+                 <li><b>Diseases:</b> kidney stones</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="6">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-charly-1.png" alt="charly">
+    </div>
+    <div class="modal-text">
+         <h3>Charly</h3>
+         <h4>Dog - Jack Russell Terrier</h4>
+         <h5>This cute boy, Charly, is three years old and he likes adults and kids. He isn’t fond of many other dogs, so he might do best in a single dog home. Charly has lots of energy, and loves to run and play. We think a fenced yard would make him very happy.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 8 years</li>
+                 <li><b>Inoculations:</b> bordetella bronchiseptica leptospirosis</li>
+                 <li><b>Diseases:</b> deafness blindness</li>
+                 <li><b>Parasites:</b> lice fleas</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="7">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/pets-scarlet.png" alt="Scarlett">
+    </div>
+    <div class="modal-text">
+         <h3>Scarlett</h3>
+         <h4>Dog - Jack Russell Terrier</h4>
+         <h5>Scarlett is a happy, playful girl who will make you laugh and smile. She forms a bond quickly and will make a loyal companion and a wonderful family dog or a good companion for a single individual too since she likes to hang out and be with her human.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 3 months</li>
+                 <li><b>Inoculations:</b> parainfluenza</li>
+                 <li><b>Diseases:</b> none</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+ <div class="modal" data-modal="8">
+    <!--   Svg иконка для закрытия окна  -->
+    <svg class="modal__cross js-modal-close" xmlns="http://www.w3.org/2000/svg"               viewBox="0 0 24 24"><path d="M23.954 21.03l-9.184-9.095 9.092-9.174-2.832-2.807-9.09 9.179-9.176-9.088-2.81 2.81 9.186 9.105-9.095 9.184 2.81 2.81 9.112-9.192 9.18 9.1z"/>
+     </svg>
+ 
+    <div class="modal-img">
+         <img src="/zhybuliou-JS2020Q3/shelter/assets/images/1-pets.png" alt="Freddie">
+    </div>
+    <div class="modal-text">
+         <h3>Freddie</h3>
+         <h4>Cat - British Shorthair</h4>
+         <h5>Freddie is a little shy at first, but very sweet when he warms up. He likes playing with shoe strings and bottle caps. He is quick to learn the rhythms of his human’s daily life. Freddie has bounced around a lot in his life, and is looking to find his forever home.</h5>
+         <div class="modal-list">
+             <ul>
+                 <li><b>Age:</b> 2 months</li>
+                 <li><b>Inoculations:</b> rabies</li>
+                 <li><b>Diseases:</b> none</li>
+                 <li><b>Parasites:</b> none</li>
+             </ul>
+         </div>
+    </div>
+ 
+ </div>
+<!-- Подложка под модальным окном -->
+<div class="overlay js-overlay-modal"></div>
+
+     <script src="/zhybuliou-JS2020Q3/shelter/pages/main/script.js"></script>.
+</body>
+</html>
